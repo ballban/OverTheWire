@@ -1,0 +1,52 @@
+ssh bandit0@bandit.labs.overthewire.org -p 2220
+cat readme
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+ssh bandit1@bandit.labs.overthewire.org -p 2220
+cat <-
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+ssh bandit2@bandit.labs.overthewire.org -p 2220
+cat "spaces in this filename"
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+ssh bandit3@bandit.labs.overthewire.org -p 2220
+ls inhere -a
+cat inhere/.hidden
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+ssh bandit4@bandit.labs.overthewire.org -p 2220
+cat inhere/-file07
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+ssh bandit5@bandit.labs.overthewire.org -p 2220
+cat $(find -size 1033c)
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+cat $(find / -size 33c -user bandit7 -group bandit6 2> /dev/null)
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+ssh bandit7@bandit.labs.overthewire.org -p 2220
+grep -rnw data.txt -e 'millionth'
+TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+ssh bandit8@bandit.labs.overthewire.org -p 2220
+sort data.txt | uniq -u
+EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+ssh bandit9@bandit.labs.overthewire.org -p 2220
+strings data.txt | grep -e '=========='
+G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+
+ssh bandit10@bandit.labs.overthewire.org -p 2220
+cat data.txt | base64 -d
+6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+ssh bandit11@bandit.labs.overthewire.org -p 2220
+
+ssh bandit12@bandit.labs.overthewire.org -p 2220
+
+ssh bandit13@bandit.labs.overthewire.org -p 2220
+
+ssh bandit14@bandit.labs.overthewire.org -p 2220
