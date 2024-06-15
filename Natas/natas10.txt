@@ -1,3 +1,0 @@
- -e '.' /etc/natas_webpass/* #
-/etc/natas_webpass/natas10:D44EcsFkLxPIkAAKLosx8z3hxX1Z4MCE
-/etc/natas_webpass/natas11:1KFqoJXi6hRaPluAmk8ESDW4fSysRoIg
