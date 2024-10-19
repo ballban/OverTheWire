@@ -1,0 +1,1 @@
+sshpass -p 'leviathan0' ssh -t leviathan0@leviathan.labs.overthewire.org -p 2223 'grep password ~/.backup/bookmarks.html'

