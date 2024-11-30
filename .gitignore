@@ -1,4 +1,4 @@
-.vscode/settings.json
+.vscode/*
 .venv/*
 Natas/DBI-1.645/*
 Leviathan/ghidra*
