@@ -14,8 +14,7 @@ run
 # password eatmyshorts
 exit
 
-./behemoth0
-eatmyshorts
+./behemoth0 <<< eatmyshorts
 
 cat /etc/behemoth_pass/behemoth1
 # password: 8YpAQCAuKf
