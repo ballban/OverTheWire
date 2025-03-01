@@ -1,9 +1,4 @@
-sftp -oPort=2221 behemoth2@narnia.labs.overthewire.org
-IxPJbQtH8q
-get /behemoth/behemoth2
-exit
-
-sshpass -p 'IxPJbQtH8q' ssh behemoth2@narnia.labs.overthewire.org -p 2221
+#!/bin/bash
 
 mkdir /tmp/ballban
 cd /tmp/ballban
