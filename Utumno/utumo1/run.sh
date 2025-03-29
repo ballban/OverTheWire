@@ -1,6 +1,6 @@
 #!/bin/bash
-password='utumno0'
-i=0
+password='ytvWa6DzmL'
+i=1
 port=2227
 
 remote_host="utumno$i@utumno.labs.overthewire.org"
