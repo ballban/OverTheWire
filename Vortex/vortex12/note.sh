@@ -21,3 +21,8 @@ strace /vortex/vortex12 $(python3 -c "import sys; import struct; sys.stdout.buff
 
 cat /etc/vortex_pass/vortex13
 # Password: 
+
+
+
+
+/vortex/vortex12 $(python3 run.py)
